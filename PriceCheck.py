@@ -13,7 +13,7 @@ cBestBuy = PluginBestBuy()
 
 plugins = [cDell, cCanadaComputers, cAmazon, cBestBuy]
 
-with open('list.json') as f:
+with open('ProductList.json') as f:
   data = json.load(f)
 
 for i in data['URLs']:
